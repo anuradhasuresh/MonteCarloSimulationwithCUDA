@@ -16,3 +16,17 @@ Select GPU as the hardware accelerator:
 1. Go to Runtime -> Change runtime type.
 2. Select GPU under Hardware accelerator.
 3. Click Save.
+
+# Running the Simulation
+1. Set the number of random points (num_points) to generate.
+2. Call the estimate_pi_gpu function with the specified number of points.
+3. The output shows the estimated value of π and the computation time on the GPU.
+
+# Results
+Running this project in Google Colab with GPU acceleration significantly speeds up the computation, making it possible to estimate π efficiently. This shows the application of parallel computing in numerical simulations, providing a practical example of CUDA programming for scientific calculations.
+
+# Contributions
+Please feel free to submit a pull request or open an issue to improve the project.
+
+# License
+This project is licensed under the MIT License. See the LICENSE file for details.
