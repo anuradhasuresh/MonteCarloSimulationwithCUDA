@@ -7,7 +7,7 @@ The Monte Carlo simulation is a mathematical technique that predicts possible ou
 # How do we use this method to estimate π (pi)?
 We can estimate π with the Monte Carlo Simulation by generating random points in a unit square and determining how many fall inside a unit circle. The ratio of points inside the circle to total points gives us an estimation of π/4, which can help us approximate the value of π.
 
-# WHy use CUDA?
+# Why use CUDA?
 CUDA allows us to use the power of GPU, which excels at handling large amounts of parallel computation, making it much faster than traditional CPU-based computations.
 
 # Setup
